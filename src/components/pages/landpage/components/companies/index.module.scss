@@ -1,0 +1,26 @@
+.jew_companies{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &-label{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 33px;
+        line-height: 52px;
+        text-align: center;
+        color: #3D3D3F;
+        margin-bottom: 5rem;
+        @media screen and (max-width:768px){
+            font-size: 22px;
+        }
+    }
+    &-brands{
+       display:flex;
+       justify-content: center;
+       flex-wrap: wrap;
+        img{
+            height: 2rem;
+            margin: 2rem 8rem;
+        } 
+    }
+}

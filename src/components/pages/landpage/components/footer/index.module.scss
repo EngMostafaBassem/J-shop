@@ -1,0 +1,72 @@
+.jew_footer{
+    margin-top: 10rem;
+    &-content{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start; 
+        &-links{
+            margin-right: 10rem;
+            margin-bottom: 2rem;
+            &-title{
+                font-style: normal;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 24px;
+                color: #2C2A2B;
+                margin-bottom: 4rem;
+    
+            }
+            &-wrapper{
+                &-item{
+                    a{
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 12px;
+                        line-height: 20px;       
+                        color: #8E8E8E;
+                    }
+                }
+            }
+    
+        }
+        &-links-contacts{
+            margin-bottom: 2rem;
+         &-title{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 24px;
+            color: #2C2A2B;
+            margin-bottom: 4rem;
+          }
+          &-subtitle{
+            font-style: normal;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;       
+            color: #8E8E8E;
+            margin-bottom: 2rem;
+          }
+        }   
+        
+        @media screen and(max-width:706px) {
+            flex-direction: column;
+           
+            
+        }
+    }
+
+    @media screen and(max-width:706px) {
+      margin-top: 0rem;
+       
+        
+    }
+
+}
+
+.icon{
+    font-size: 1.5rem;
+    margin-right: 1rem; 
+    cursor: pointer;
+
+}
